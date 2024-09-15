@@ -1,7 +1,7 @@
 import java.lang.Math;
 public class Solution {
-    //this project involves an integer array of numbers which represent different heights, visualised on a barchart
-    //the objective is to try find the rectangle with the largest area on this barchart, using the "height" of the integers and the "width" of the space between them
+    //this problem involves recieving an integer array of different "heights", visualised on a barchart.
+    //the objective is to find the largest area of a rectangle, using the heights on the visualised barchart, and the "width" between them
     public static int largestArea(int[] height) {
         int left = 0; //left and right variables are used as indexes to compare elements in the array
         int right = height.length - 1;
